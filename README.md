@@ -2,8 +2,7 @@
 
 Multi-task graph neural network pretrained on synthetic ADME labels for 270,000+ compounds across 25 endpoints. Predicts permeability (Caco-2, PAMPA, LE-MDCK Papp, MDCK-MDR1 efflux ratio), intrinsic clearance and plasma protein binding in rat, human, mouse, dog, and monkey liver microsomes, human serum albumin/microsomal/brain binding, LogP, LogD, and CYP3A4 time-dependent and CYP3A4/CYP2C9/CYP2D6 reversible inhibition. Supports fine-tuning on experimental data for prospective drug discovery applications.
 
-This model was incorporated on 2026-06-30.
-
+This model was incorporated on 2026-06-30.Last packaged on 2026-09-17.
 
 ## Information
 ### Identifiers
@@ -44,12 +43,19 @@ _10 of 25 columns are shown_
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `Replicated`
+- **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos48ue](https://hub.docker.com/r/ersiliaos/eos48ue)
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos48ue.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos48ue.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `856`
 - **Environment Size (Mb):** `1816`
+- **Image Size (Mb):** `3404`
 
+**Computational Performance (seconds):**
+- 10 inputs: `48.07`
+- 100 inputs: `37.4`
+- 10000 inputs: `1057.4`
 
 ### References
 - **Source Code**: [https://github.com/chemprop/chemprop](https://github.com/chemprop/chemprop)
