@@ -2,6 +2,7 @@
 
 Multi-task graph neural network pretrained on synthetic ADME labels for 270,000+ compounds across 25 endpoints. Predicts permeability (Caco-2, PAMPA, LE-MDCK Papp, MDCK-MDR1 efflux ratio), intrinsic clearance and plasma protein binding in rat, human, mouse, dog, and monkey liver microsomes, human serum albumin/microsomal/brain binding, LogP, LogD, and CYP3A4 time-dependent and CYP3A4/CYP2C9/CYP2D6 reversible inhibition. Supports fine-tuning on experimental data for prospective drug discovery applications.
 
+This model was incorporated on 2026-06-30.
 
 
 ## Information
@@ -43,8 +44,11 @@ _10 of 25 columns are shown_
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `Replicated`
+- **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos48ue.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos48ue.zip)
 
 ### Resource Consumption
+- **Model Size (Mb):** `856`
+- **Environment Size (Mb):** `1816`
 
 
 ### References
