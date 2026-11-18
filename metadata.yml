@@ -49,7 +49,7 @@ License: MIT
 Contributor: arnaucoma24
 Incorporation Date: '2026-06-30'
 Last Packaging Date: '2026-09-17'
-Release: v1.0.0
+Release: v1.0.1
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos48ue.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos48ue
 Docker Architecture:
